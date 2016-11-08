@@ -1,0 +1,29 @@
+{
+  "name": "limitedQueue",
+  "version": "0.1.4",
+  "description": "A queue which limits space and storage size",
+  "main": "Queue.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "Queue",
+    "Load",
+    "Balancer"
+  ],
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/JulianKnodt/limitedQueue.git"
+  },
+  "author": "Julian Knodt <julianknodt@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "hash-it": "^2.0.0",
+    "linkedlist": "^1.0.1",
+    "sizeof": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
